@@ -1,0 +1,27 @@
+{
+  "name": "react-eventually",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "_prettier": "prettier --parser typescript --use-tabs --no-semi --single-quote --trailing-comma es5 --no-bracket-spacing --jsx-bracket-same-line 'src/**/*.{js,ts,tsx}'",
+    "lint": "npm run _prettier -- -l",
+    "lint:fix": "npm run _prettier -- --write",
+    "precommit": "tsc && npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^15.0.30",
+    "husky": "^0.13.4",
+    "prettier": "^1.4.4",
+    "react": "^15.6.1",
+    "typescript": "^2.3.4"
+  },
+  "files": [
+    "index.d.ts",
+    "lib/**/*"
+  ]
+}

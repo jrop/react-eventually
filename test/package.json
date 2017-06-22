@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.3",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.0.0",
+    "webpack-configify": "^0.0.5",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
