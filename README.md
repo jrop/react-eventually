@@ -14,7 +14,7 @@ $ yarn add react-eventually
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
-import Eventually from '../../src/index'
+import Eventually from 'react-eventually'
 
 ReactDOM.render(
 	<div>
