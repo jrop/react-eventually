@@ -1,5 +1,7 @@
 # react-eventually
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/react-eventually.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 ```sh
